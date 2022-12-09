@@ -1,0 +1,9 @@
+{
+	"name": "farooqADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "46c17d15-95a2-4f32-a079-8f53671cde60",
+		"tenantId": "444bdd97-2faa-46c2-b22d-77a35a3e2f34"
+	}
+}
