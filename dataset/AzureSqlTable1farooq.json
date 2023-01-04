@@ -1,0 +1,46 @@
+{
+	"name": "AzureSqlTable1farooq",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1fqarooq",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "sourcepath",
+				"type": "varchar"
+			},
+			{
+				"name": "sourcetbale",
+				"type": "varchar"
+			},
+			{
+				"name": "sinkpath",
+				"type": "varchar"
+			},
+			{
+				"name": "sinktable",
+				"type": "varchar"
+			},
+			{
+				"name": "sqlschema",
+				"type": "varchar"
+			},
+			{
+				"name": "sqltable",
+				"type": "varchar"
+			},
+			{
+				"name": "flag",
+				"type": "bit"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "metadata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
