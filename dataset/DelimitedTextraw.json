@@ -1,15 +1,15 @@
 {
-	"name": "DelimitedText1",
+	"name": "DelimitedTextraw",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage2",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"sinkpath": {
+			"sourcepath": {
 				"type": "string"
 			},
-			"sinktable": {
+			"sourcetbale": {
 				"type": "string"
 			}
 		},
@@ -19,11 +19,11 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "@dataset().sinktable",
+					"value": "@dataset().sourcetbale",
 					"type": "Expression"
 				},
 				"folderPath": {
-					"value": "@dataset().sinkpath",
+					"value": "@dataset().sourcepath",
 					"type": "Expression"
 				},
 				"fileSystem": "farooqc"

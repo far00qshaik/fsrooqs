@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlDatabase1fqarooq",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "jamjamfarooq",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=jamjam.database.windows.net;initial catalog=farooq;user id=jamjam",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDI2QkIzNjk3LTc2QjgtNDk1OS1CMzMzLTRCNTUzOUJDRDczRV80NTdjMTBhNC0wNDBjLTQwMzItODMxYi0zOTEyZDFkODcwNzciDQp9"
+		}
+	}
+}
